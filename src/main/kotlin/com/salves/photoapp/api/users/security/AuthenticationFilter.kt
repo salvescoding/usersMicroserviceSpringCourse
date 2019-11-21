@@ -3,11 +3,8 @@ package com.salves.photoapp.api.users.security
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.salves.photoapp.api.users.domain.LoginRequestModel
 import com.salves.photoapp.api.users.service.UsersService
-import io.jsonwebtoken.Jws
-import io.jsonwebtoken.JwtBuilder
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.SignatureAlgorithm
-import org.springframework.beans.factory.annotation.Value
 import org.springframework.core.env.Environment
 import org.springframework.security.authentication.AuthenticationManager
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken

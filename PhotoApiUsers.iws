@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2834a6be-5373-4b26-90da-bd7541ea6660" name="Default Changelist" comment="Add user authentication with spring security">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhotoApiUsers.iws" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoApiUsers.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/salves/photoapp/api/users/security/AuthenticationFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/salves/photoapp/api/users/security/AuthenticationFilter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salves/photoapp/api/users/security/AuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salves/photoapp/api/users/security/AuthenticationFilter.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +132,7 @@
       <workItem from="1574274224076" duration="781000" />
       <workItem from="1574276832090" duration="1233000" />
       <workItem from="1574364389003" duration="167000" />
+      <workItem from="1574364905317" duration="1894000" />
     </task>
     <task id="LOCAL-00001" summary="Add domain User and converter">
       <created>1572804625069</created>
@@ -165,6 +171,17 @@
     <MESSAGE value="Add domain User and converter" />
     <MESSAGE value="Add user authentication with spring security" />
     <option name="LAST_COMMIT_MESSAGE" value="Add user authentication with spring security" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/salves/photoapp/api/users/security/AuthenticationFilter.kt</url>
+          <line>52</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
     <setting name="isActivated" value="false" />
