@@ -3,7 +3,7 @@ package com.salves.photoapp.api.users.domain
 import org.springframework.stereotype.Repository
 
 @Repository
-object UsersRepository {
+class UsersRepository {
     private val userRepo  = mutableMapOf<String, UserEntity>()
 
     fun save(userEntity: UserEntity) { userRepo[userEntity.email] = userEntity }

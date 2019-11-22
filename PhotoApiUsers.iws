@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2834a6be-5373-4b26-90da-bd7541ea6660" name="Default Changelist" comment="Add user authentication with spring security">
+      <change beforePath="$PROJECT_DIR$/PhotoApiUsers.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoApiUsers.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoApiUsers.iws" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoApiUsers.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/salves/photoapp/api/users/security/AuthenticationFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/salves/photoapp/api/users/security/AuthenticationFilter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsersMicroservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UsersMicroservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/salves/photoapp/api/users/domain/UsersRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/salves/photoapp/api/users/domain/UsersRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/salves/photoapp/api/users/web/controllers/UsersController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/salves/photoapp/api/users/web/controllers/UsersController.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salves/photoapp/api/users/security/AuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salves/photoapp/api/users/security/AuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salves/photoapp/api/users/domain/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salves/photoapp/api/users/domain/UsersRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salves/photoapp/api/users/web/controllers/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salves/photoapp/api/users/web/controllers/UsersController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +65,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -133,6 +139,10 @@
       <workItem from="1574276832090" duration="1233000" />
       <workItem from="1574364389003" duration="167000" />
       <workItem from="1574364905317" duration="1894000" />
+      <workItem from="1574440077400" duration="3333000" />
+      <workItem from="1574445393213" duration="1797000" />
+      <workItem from="1574451708983" duration="741000" />
+      <workItem from="1574452565972" duration="1733000" />
     </task>
     <task id="LOCAL-00001" summary="Add domain User and converter">
       <created>1572804625069</created>

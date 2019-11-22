@@ -413,6 +413,28 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/netflix/servo/servo-core/0.12.21/servo-core-0.12.21-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.rabbitmq:amqp-client:5.7.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.rabbitmq:http-client:2.1.0.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/rabbitmq/http-client/2.1.0.RELEASE/http-client-2.1.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/rabbitmq/http-client/2.1.0.RELEASE/http-client-2.1.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/rabbitmq/http-client/2.1.0.RELEASE/http-client-2.1.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: com.sun.jersey.contribs:jersey-apache-client4:1.19.1">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1.jar!/" />
@@ -1216,6 +1238,28 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework.amqp:spring-amqp:2.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.0.RELEASE/spring-amqp-2.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.0.RELEASE/spring-amqp-2.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.0.RELEASE/spring-amqp-2.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.amqp:spring-rabbit:2.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.2.0.RELEASE/spring-rabbit-2.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.2.0.RELEASE/spring-rabbit-2.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.2.0.RELEASE/spring-rabbit-2.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.2.0.RELEASE">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.2.0.RELEASE/spring-boot-actuator-autoconfigure-2.2.0.RELEASE.jar!/" />
@@ -1269,6 +1313,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-actuator/2.2.0.RELEASE/spring-boot-starter-actuator-2.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.boot:spring-boot-starter-amqp:2.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-amqp/2.2.0.RELEASE/spring-boot-starter-amqp-2.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-amqp/2.2.0.RELEASE/spring-boot-starter-amqp-2.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-amqp/2.2.0.RELEASE/spring-boot-starter-amqp-2.2.0.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework.boot:spring-boot-starter-aop:2.2.0.RELEASE">
@@ -1414,6 +1469,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.0.RELEASE/spring-boot-2.2.0.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-bus:2.2.0.M3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.2.0.M3/spring-cloud-bus-2.2.0.M3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.2.0.M3/spring-cloud-bus-2.2.0.M3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-bus/2.2.0.M3/spring-cloud-bus-2.2.0.M3-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework.cloud:spring-cloud-commons:2.2.0.M3">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.2.0.M3/spring-cloud-commons-2.2.0.M3.jar!/" />
@@ -1445,6 +1511,28 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.2.0.M3/spring-cloud-context-2.2.0.M3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-function-context:3.0.0.M3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-function-context/3.0.0.M3/spring-cloud-function-context-3.0.0.M3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-function-context/3.0.0.M3/spring-cloud-function-context-3.0.0.M3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-function-context/3.0.0.M3/spring-cloud-function-context-3.0.0.M3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-function-core:3.0.0.M3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-function-core/3.0.0.M3/spring-cloud-function-core-3.0.0.M3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-function-core/3.0.0.M3/spring-cloud-function-core-3.0.0.M3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-function-core/3.0.0.M3/spring-cloud-function-core-3.0.0.M3-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework.cloud:spring-cloud-loadbalancer:2.2.0.M3">
@@ -1502,6 +1590,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.0.M3/spring-cloud-netflix-ribbon-2.2.0.M3-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-starter-bus-amqp:2.2.0.M3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-bus-amqp/2.2.0.M3/spring-cloud-starter-bus-amqp-2.2.0.M3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-bus-amqp/2.2.0.M3/spring-cloud-starter-bus-amqp-2.2.0.M3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-bus-amqp/2.2.0.M3/spring-cloud-starter-bus-amqp-2.2.0.M3-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework.cloud:spring-cloud-starter-config:2.2.0.M3">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-config/2.2.0.M3/spring-cloud-starter-config-2.2.0.M3.jar!/" />
@@ -1557,6 +1656,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.0.M3/spring-cloud-starter-netflix-ribbon-2.2.0.M3-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-starter-stream-rabbit:3.0.0.M4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-stream-rabbit/3.0.0.M4/spring-cloud-starter-stream-rabbit-3.0.0.M4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-stream-rabbit/3.0.0.M4/spring-cloud-starter-stream-rabbit-3.0.0.M4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-stream-rabbit/3.0.0.M4/spring-cloud-starter-stream-rabbit-3.0.0.M4-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework.cloud:spring-cloud-starter:2.2.0.M3">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter/2.2.0.M3/spring-cloud-starter-2.2.0.M3.jar!/" />
@@ -1566,6 +1676,83 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter/2.2.0.M3/spring-cloud-starter-2.2.0.M3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:3.0.0.M4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit-core/3.0.0.M4/spring-cloud-stream-binder-rabbit-core-3.0.0.M4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit-core/3.0.0.M4/spring-cloud-stream-binder-rabbit-core-3.0.0.M4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit-core/3.0.0.M4/spring-cloud-stream-binder-rabbit-core-3.0.0.M4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-stream-binder-rabbit:3.0.0.M4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit/3.0.0.M4/spring-cloud-stream-binder-rabbit-3.0.0.M4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit/3.0.0.M4/spring-cloud-stream-binder-rabbit-3.0.0.M4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit/3.0.0.M4/spring-cloud-stream-binder-rabbit-3.0.0.M4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.cloud:spring-cloud-stream:3.0.0.M4">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/3.0.0.M4/spring-cloud-stream-3.0.0.M4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/3.0.0.M4/spring-cloud-stream-3.0.0.M4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/3.0.0.M4/spring-cloud-stream-3.0.0.M4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.integration:spring-integration-amqp:5.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-amqp/5.2.0.RELEASE/spring-integration-amqp-5.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-amqp/5.2.0.RELEASE/spring-integration-amqp-5.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-amqp/5.2.0.RELEASE/spring-integration-amqp-5.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.integration:spring-integration-core:5.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.2.0.RELEASE/spring-integration-core-5.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.2.0.RELEASE/spring-integration-core-5.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.2.0.RELEASE/spring-integration-core-5.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.integration:spring-integration-jmx:5.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-jmx/5.2.0.RELEASE/spring-integration-jmx-5.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-jmx/5.2.0.RELEASE/spring-integration-jmx-5.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-jmx/5.2.0.RELEASE/spring-integration-jmx-5.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.retry:spring-retry:1.2.4.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/retry/spring-retry/1.2.4.RELEASE/spring-retry-1.2.4.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/retry/spring-retry/1.2.4.RELEASE/spring-retry-1.2.4.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/retry/spring-retry/1.2.4.RELEASE/spring-retry-1.2.4.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework.security:spring-security-config:5.2.0.RELEASE">
@@ -1700,6 +1887,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.2.0.RELEASE/spring-jcl-5.2.0.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.springframework:spring-messaging:5.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.2.0.RELEASE/spring-messaging-5.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.2.0.RELEASE/spring-messaging-5.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.2.0.RELEASE/spring-messaging-5.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.springframework:spring-test:5.2.0.RELEASE">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.0.RELEASE/spring-test-5.2.0.RELEASE.jar!/" />
@@ -1709,6 +1907,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.0.RELEASE/spring-test-5.2.0.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-tx:5.2.0.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.0.RELEASE/spring-tx-5.2.0.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.0.RELEASE/spring-tx-5.2.0.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.0.RELEASE/spring-tx-5.2.0.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework:spring-web:5.2.0.RELEASE">

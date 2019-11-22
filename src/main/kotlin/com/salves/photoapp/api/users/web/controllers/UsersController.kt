@@ -17,7 +17,7 @@ import javax.validation.Valid
 class UsersController(private val env: Environment, private val userService : UsersService) {
 
     @GetMapping("/status")
-    fun status() = "Working on port: ${env.getProperty("local.server.port")}"
+    fun status() = "Working on port: ${env.getProperty("local.server.port")}, with token: ${env.getProperty("token.secret")}"
 
     @PostMapping(consumes = [MediaType.APPLICATION_JSON_VALUE],
                  produces = [MediaType.APPLICATION_JSON_VALUE])
