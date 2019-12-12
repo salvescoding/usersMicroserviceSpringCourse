@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2834a6be-5373-4b26-90da-bd7541ea6660" name="Default Changelist" comment="Add user authentication with spring security">
+      <change beforePath="$PROJECT_DIR$/PhotoApiUsers.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoApiUsers.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoApiUsers.iws" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoApiUsers.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bootstrap.properties" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +44,12 @@
   </component>
   <component name="ProjectId" id="1SeGtRJrpSeAdvebpOVBqGVRxTZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -70,18 +80,6 @@
       <recent name="com.salves.photoapp.api.users.domain" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
@@ -92,12 +90,15 @@
       <setting name="workingDir" value="" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
       <setting name="host" value="" />
       <setting name="port" value="0" />
-      <setting name="replType" value="0" />
+      <setting name="replType" value="NREPL" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
       <module name="" />
       <method v="2" />
     </configuration>
@@ -109,6 +110,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -134,7 +147,8 @@
       <workItem from="1574440077400" duration="3333000" />
       <workItem from="1574445393213" duration="1797000" />
       <workItem from="1574451708983" duration="741000" />
-      <workItem from="1574452565972" duration="2271000" />
+      <workItem from="1574452565972" duration="2865000" />
+      <workItem from="1576175366652" duration="5097000" />
     </task>
     <task id="LOCAL-00001" summary="Add domain User and converter">
       <created>1572804625069</created>
@@ -174,16 +188,71 @@
     <MESSAGE value="Add user authentication with spring security" />
     <option name="LAST_COMMIT_MESSAGE" value="Add user authentication with spring security" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/salves/photoapp/api/users/security/AuthenticationFilter.kt</url>
-          <line>52</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="WindowStateProjectService">
+    <state x="-1085" y="-49" width="603" height="621" key="#xdebugger.evaluate" timestamp="1576177231174">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state x="-1085" y="-49" width="603" height="621" key="#xdebugger.evaluate/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576177231174" />
+    <state width="1878" height="288" key="GridCell.Tab.0.bottom" timestamp="1576188524924">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.0.bottom/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576188524924" />
+    <state width="1878" height="288" key="GridCell.Tab.0.center" timestamp="1576188524923">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.0.center/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576188524923" />
+    <state width="1878" height="288" key="GridCell.Tab.0.left" timestamp="1576188524923">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.0.left/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576188524923" />
+    <state width="1878" height="288" key="GridCell.Tab.0.right" timestamp="1576188524923">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.0.right/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576188524923" />
+    <state width="1878" height="288" key="GridCell.Tab.1.bottom" timestamp="1576188524925">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.1.bottom/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576188524925" />
+    <state width="1878" height="288" key="GridCell.Tab.1.center" timestamp="1576188524924">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.1.center/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576188524924" />
+    <state width="1878" height="288" key="GridCell.Tab.1.left" timestamp="1576188524924">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.1.left/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576188524924" />
+    <state width="1878" height="288" key="GridCell.Tab.1.right" timestamp="1576188524924">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="288" key="GridCell.Tab.1.right/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576188524924" />
+    <state width="1878" height="356" key="GridCell.Tab.2.bottom" timestamp="1576188521777">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="356" key="GridCell.Tab.2.bottom/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576188521777" />
+    <state width="1878" height="356" key="GridCell.Tab.2.center" timestamp="1576188521776">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="356" key="GridCell.Tab.2.center/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576188521776" />
+    <state width="1878" height="356" key="GridCell.Tab.2.left" timestamp="1576188521776">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="356" key="GridCell.Tab.2.left/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576188521776" />
+    <state width="1878" height="356" key="GridCell.Tab.2.right" timestamp="1576188521777">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="356" key="GridCell.Tab.2.right/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576188521777" />
+    <state width="538" height="516" key="SwitcherDM" timestamp="1576188304216">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state width="538" height="516" key="SwitcherDM/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576188304216" />
+    <state width="960" height="528" key="XDebugger.FullValuePopup" timestamp="1576177180405">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state width="960" height="528" key="XDebugger.FullValuePopup/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576177180405" />
+    <state x="-1355" y="-11" width="735" height="676" key="search.everywhere.popup" timestamp="1576187147521">
+      <screen x="-1920" y="-246" width="1920" height="1057" />
+    </state>
+    <state x="-1355" y="-11" width="735" height="676" key="search.everywhere.popup/-1920.-246.1920.1057/0.23.1680.975@-1920.-246.1920.1057" timestamp="1576187147521" />
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
     <setting name="isActivated" value="false" />
