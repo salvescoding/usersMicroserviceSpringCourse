@@ -34,4 +34,3 @@ class PhotoapiusersApplication {
 fun main(args: Array<String>) {
     runApplication<PhotoapiusersApplication>(*args)
 }
-
