@@ -3,6 +3,7 @@ package com.salves.photoapp.api.users.service
 import com.salves.photoapp.api.users.domain.UserDto
 import com.salves.photoapp.api.users.domain.UserEntity
 import com.salves.photoapp.api.users.domain.UsersRepository
+import com.salves.photoapp.api.users.infrastructure.AlbumsServiceClient
 import com.salves.photoapp.api.users.web.models.AlbumResponseModel
 import org.springframework.core.ParameterizedTypeReference
 import org.springframework.core.env.Environment
@@ -21,7 +22,8 @@ import org.springframework.web.util.UriComponentsBuilder
 class UsersServiceImpl(
         private val usersRepository: UsersRepository,
         private val bCryptPasswordEncoder: BCryptPasswordEncoder,
-        private val restTemplate: RestTemplate,
+//        private val restTemplate: RestTemplate,
+        private val albumsServiceClient: AlbumsServiceClient,
         private val env : Environment) : UsersService {
 
 
@@ -48,21 +50,8 @@ class UsersServiceImpl(
 
     override fun getUserById(userId: String) : UserDto {
         val user = usersRepository.findByUserId(userId)?.toUserDto() ?: throw UsernameNotFoundException(userId)
-        val params = mapOf("userId" to userId)
-        val albumUrl = env.getProperty("albums.url") ?: ""
-        if (albumUrl.isNotEmpty()) {
-            val response = getAlbumsForUser(albumUrl, params)
-            user.albumResponseModel = response.body
-        }
+        user.albumResponseModel = albumsServiceClient.getAlbums(userId)
         return user
-    }
-
-    private fun getAlbumsForUser(albumUrl: String, params: Map<String, String>): ResponseEntity<List<AlbumResponseModel>> {
-        val albumsUrlBuilder = UriComponentsBuilder.fromUriString(albumUrl)
-        val response = restTemplate.exchange(
-                albumsUrlBuilder.buildAndExpand(params).toUri(),
-                HttpMethod.GET, null, object : ParameterizedTypeReference<List<AlbumResponseModel>>() {})
-        return response
     }
 
     private fun UserEntity.toUserDto() : UserDto = UserDto(firstName, lastName, email, userId, emptyList())
