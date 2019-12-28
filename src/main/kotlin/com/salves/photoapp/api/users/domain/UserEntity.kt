@@ -1,5 +1,6 @@
 package com.salves.photoapp.api.users.domain
 
+import com.salves.photoapp.api.users.web.models.AlbumResponseModel
 import java.io.Serializable
 
 class UserEntity(
@@ -7,5 +8,6 @@ class UserEntity(
          val lastName: String,
          val email: String,
          val userId: String,
-         val encryptedPass: String) : Serializable {
+         val encryptedPass: String
+         ) : Serializable {
 }

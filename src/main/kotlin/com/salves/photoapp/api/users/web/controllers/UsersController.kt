@@ -1,10 +1,8 @@
 package com.salves.photoapp.api.users.web.controllers
 
+import com.salves.photoapp.api.users.domain.UserDto
 import com.salves.photoapp.api.users.service.UsersService
-import com.salves.photoapp.api.users.web.models.CreateUserRequestModel
-import com.salves.photoapp.api.users.web.models.CreateUserResponseModel
-import com.salves.photoapp.api.users.web.models.convertToUser
-import com.salves.photoapp.api.users.web.models.convertToUserResponse
+import com.salves.photoapp.api.users.web.models.*
 import org.springframework.core.env.Environment
 import org.springframework.http.HttpStatus
 import org.springframework.http.MediaType
@@ -25,6 +23,18 @@ class UsersController(private val env: Environment, private val userService : Us
         val newUser = createUserRequestModel.convertToUser()
         userService.createUser(newUser)
         return ResponseEntity.status(HttpStatus.CREATED).body(newUser.convertToUserResponse())
+    }
+
+    @GetMapping("/{userId}")
+    fun getUser(@PathVariable("userId") userId: String) : ResponseEntity<UserResponseModel> {
+        val userById = userService.getUserById(userId).toUserResponseModel()
+
+        return ResponseEntity.status(HttpStatus.OK).body(userById)
+
+    }
+
+    private fun UserDto.toUserResponseModel() : UserResponseModel {
+        return UserResponseModel(userId, firstName, lastName, email, albumResponseModel!!)
     }
 
 

@@ -4,9 +4,15 @@ import org.springframework.stereotype.Repository
 
 @Repository
 class UsersRepository {
-    private val userRepo  = mutableMapOf<String, UserEntity>()
+    private val userRepoByEmail  = mutableMapOf<String, UserEntity>()
+    private val userRepoById  = mutableMapOf<String, UserEntity>()
 
-    fun save(userEntity: UserEntity) { userRepo[userEntity.email] = userEntity }
+    fun save(userEntity: UserEntity) {
+        userRepoByEmail[userEntity.email] = userEntity
+        userRepoById[userEntity.userId] = userEntity
+    }
 
-    fun getUserByUsername(username: String) = userRepo[username]
+    fun getUserByUsername(username: String) = userRepoByEmail[username]
+
+    fun findByUserId(userId: String) = userRepoById[userId]
 }

@@ -7,4 +7,5 @@ import org.springframework.security.core.userdetails.UserDetailsService
 interface UsersService : UserDetailsService {
     fun createUser(userEntity: UserEntity)
     fun getUserDetailsByEmail(email: String) : UserDto
+    fun getUserById(userId: String): UserDto
 }
