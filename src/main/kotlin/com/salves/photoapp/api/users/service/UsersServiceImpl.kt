@@ -5,6 +5,7 @@ import com.salves.photoapp.api.users.domain.UserEntity
 import com.salves.photoapp.api.users.domain.UsersRepository
 import com.salves.photoapp.api.users.infrastructure.AlbumsServiceClient
 import com.salves.photoapp.api.users.web.models.AlbumResponseModel
+import org.slf4j.LoggerFactory
 import org.springframework.core.ParameterizedTypeReference
 import org.springframework.core.env.Environment
 import org.springframework.http.HttpMethod
@@ -22,9 +23,9 @@ import org.springframework.web.util.UriComponentsBuilder
 class UsersServiceImpl(
         private val usersRepository: UsersRepository,
         private val bCryptPasswordEncoder: BCryptPasswordEncoder,
-//        private val restTemplate: RestTemplate,
-        private val albumsServiceClient: AlbumsServiceClient,
-        private val env : Environment) : UsersService {
+        private val albumsServiceClient: AlbumsServiceClient) : UsersService {
+
+    private val logger = LoggerFactory.getLogger(this.javaClass)
 
 
     override fun loadUserByUsername(username: String): UserDetails {
@@ -50,7 +51,9 @@ class UsersServiceImpl(
 
     override fun getUserById(userId: String) : UserDto {
         val user = usersRepository.findByUserId(userId)?.toUserDto() ?: throw UsernameNotFoundException(userId)
+        logger.info("Calling Albums Microservice")
         user.albumResponseModel = albumsServiceClient.getAlbums(userId)
+        logger.info("Albums Microservice was called")
         return user
     }
 

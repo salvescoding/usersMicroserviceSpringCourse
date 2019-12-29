@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable
 @FeignClient(name = "albums-ws", fallbackFactory = AlbumsFallbackFactory::class)
 interface AlbumsServiceClient {
 
-    @GetMapping("/users/{id}/albumss")
+    @GetMapping("/users/{id}/albums")
     fun getAlbums(@PathVariable id: String) : List<AlbumResponseModel>
 }
 
